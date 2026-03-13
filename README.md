@@ -41,7 +41,7 @@ A **web‑based offline speech‑to‑text system** that converts spoken Hindi a
 ---
 
 # 📂 Project Structure
-![App Screenshot](https://dummyimage.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](project_structure.png)
 
 # ▶ Usage
 - Open the web interface
