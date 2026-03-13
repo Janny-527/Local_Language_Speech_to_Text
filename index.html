@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Speech Transcriber</title>
+<link rel="stylesheet" href="E:\project sem 6th\style1.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+<h1>Transcribe & Translate Speech</h1>
+<p>Record your voice or upload audio. Works offline.</p>
+</header>
+
+<div class="grid">
+
+<!-- LEFT PANEL -->
+<div class="left-panel">
+
+<div class="card">
+<h3>Language Settings</h3>
+
+<label>Spoken Language</label>
+<select id="sourceLang">
+<option>English</option>
+<option>Hindi</option>
+<option>Punjabi</option>
+</select>
+
+<label>Translate To</label>
+<select id="targetLang">
+<option>English</option>
+<option>Hindi</option>
+<option>Punjabi</option>
+</select>
+
+</div>
+
+<div class="card">
+<h3>Live Recording</h3>
+<button id="recordBtn">🎤 Start Recording</button>
+<p>Tap again to stop</p>
+</div>
+
+<div class="card">
+<h3>Upload Audio File</h3>
+
+<input type="file" id="audioFile">
+
+<button onclick="uploadFile()">Upload</button>
+
+</div>
+
+<button class="mainBtn" onclick="transcribe()">Transcribe & Translate</button>
+
+</div>
+
+
+<!-- RIGHT PANEL -->
+<div class="right-panel">
+
+<div class="card">
+<h3>Transcription Output</h3>
+<textarea id="outputText" placeholder="Your text will appear here"></textarea>
+</div>
+
+<div class="card">
+<h3>How it Works</h3>
+
+<ol>
+<li>Choose language</li>
+<li>Record or upload audio</li>
+<li>View transcription</li>
+</ol>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="E:\project sem 6th\scripts1.js"></script>
+
+</body>
+</html>
